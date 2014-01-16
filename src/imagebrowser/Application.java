@@ -21,7 +21,7 @@ public class Application {
     private Map<String, ImageCommand> commandMap;
 
     public static void main(String[] args) {
-        path = "C:\\Users\\Carlos\\Pictures\\Wallpapers";
+        path = "C:\\Users\\Carlos\\Pictures";   //Cambiar a la ruta con las imagenes
         new Application().execute();
     }
 
